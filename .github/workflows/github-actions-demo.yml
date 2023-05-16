@@ -29,9 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: Build
     steps:
-    - name: Day Hello
-    
-    - run: echo "Hello Mal"
+    - name: Say Hello
+      run: echo "Hello Mal"
       
  
       
